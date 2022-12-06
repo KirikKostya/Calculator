@@ -1,0 +1,9 @@
+.screen{
+    width: 320px;
+    height: 80px;
+    background-color: rgb(211, 211, 212);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #c4c4c5;
+    margin: 15px;
+    margin-top: 35px;
+}

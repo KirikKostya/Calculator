@@ -1,0 +1,120 @@
+.FieldOfCalc{
+    margin: 10px;
+    background-color: #323335;
+    width: 350px;
+    height: 520px;
+    border: 2px solid rgb(116, 173, 83);
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px 3px rgb(199, 199, 210), -1px -4px 4px 1px ;
+}
+
+.Screen{
+    width: 320px;
+    height: 80px;
+    background-color: rgb(211, 211, 212);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #c4c4c5;
+    margin: 15px;
+    margin-top: 35px;
+}
+.ConteinerForOperation{
+    height: 70px;
+    width: 300px;
+    margin: 30px;
+    margin-bottom: 0;
+    display: flex;
+}
+.ConteinerForOperationRigth{
+    width: 70px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 37px;
+    margin-top: 5px;
+}
+.Main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+input{
+    font-size:larger;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 243, 235);
+    border: 2px solid rgb(116, 173, 83);
+    border-radius: 50%;
+    margin: 1px ;
+}
+.ConteinerForButtons{
+    width: 300px;
+    height: 260px;
+    margin: 30px;
+    margin-top: 5px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Btn{
+    width: 70px;
+    height: 70px;
+    /* margin: 0; */
+    padding: 0px;
+    margin-bottom: -2px;
+    margin-right: 0px;
+}
+.Mark, p{
+    color: black;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+    font-size: larger;
+}
+.watchParagraph{
+    font-weight:50;
+    font-size: small;
+}
+.Result, #firsPar{
+    font-weight: 620;
+}
+.changesTheme{
+    width: 80px !important;
+    height: 35px;
+    border-radius: 9px !important;
+    display: flex;
+    justify-content: baseline;
+}
+.updateForFieldOfCulc{
+    background-color: #f6f7fa;
+    border: 2px solid red;
+    box-shadow: none;
+}
+.updateForScreen{
+    background-color: rgb(39, 40, 40);
+}
+.updateForBtnsOnTheField{
+    background-color: rgb(50, 50, 49);
+    border: 2px solid rgb(209, 203, 203);
+    border: 1px solid red;
+    color: #f32e2e;
+}
+.UpdateForParagraph{
+    color:rgb(215, 56, 56);
+    font-size: larger;
+}
+.MainField{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.updateMainField{
+    background-color: #323335;
+}
+.none{
+    display: none;
+}

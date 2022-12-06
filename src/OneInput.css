@@ -1,0 +1,17 @@
+button{
+    font-size:larger;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 243, 235);
+    border: 2px solid rgb(116, 173, 83);
+    border-radius: 50%;
+    margin: 1px ;
+}
+.Btn{
+    width: 70px;
+    height: 70px;
+    /* margin: 0; */
+    padding: 0px;
+    margin-bottom: -2px;
+    margin-right: 0px;
+}
